@@ -5,5 +5,5 @@ steps:
   - name: First Step
     image: python
     commands:
-      - mkdir /drone_test1
+      - mkdir /drone_test
       - sleep 60
