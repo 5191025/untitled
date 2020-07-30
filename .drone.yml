@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: default
+steps:
+  - name: First Step
+    image: python
+    commands:
+      - mkdir /drone_test
+      - sleep 60
